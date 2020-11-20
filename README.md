@@ -1,4 +1,3 @@
-# q2
 #!/usr/bin/env node
 
 const fs = require('fs')
@@ -15,12 +14,12 @@ const dataPath = path.join(__dirname, '../data')
 const removeUnusedAssetsScript = 'script/remove-unused-assets'
 const elseifRegex = /{-?% elsif/
 
-// [start-readme]
+//[start-readme]
 //
 // Run this script after an Enterprise deprecation to remove Liquid statements and frontmatter that contain the deprecated Enterprise version.
-// See the Enterprise deprecation issue template for instructions.
+// See the Enterprise deprecation issue template for instructions.//
 //
-// [end-readme]
+[end-readme]
 
 program
   .description('Remove Liquid conditionals and update versions frontmatter for a given Enterprise Server release.')
